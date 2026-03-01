@@ -1,3 +1,5 @@
+// Smart student Calculator Sustem 
+// Calcultes the total, average, percentage and grade using user input, varaibles, and arithmetic operators.
 #include <iostream>
 #include <string>
 
@@ -10,7 +12,7 @@ int subject(string name, int choose) {
 		cout << "\nInvalid choice! Please enter 1 to 4.\n";
 		return 0;
 	}
-	cout << "How namy subject do you have? ";
+	cout << "How many subject do you have? ";
 	cin >> subj;
 	int* marks = new int[subj];
 	for (int i = 0; i < subj; i++) {
